@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.ninja.dev</groupId>
+  <artifactId>java-programmer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <developers>
+  	<developer>
+  		<name>Julio Cesar Bolaños Palacios</name>
+  		<email>cesar.dev.code@gmail.com</email>
+  	</developer>
+  </developers>
+  
+  <properties>
+  	<java.version>1.8</java.version>
+  </properties>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<configuration>
+  				<source>${java.version}</source>
+  				<target>${java.version}</target>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
+</project>
